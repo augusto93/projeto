@@ -261,15 +261,10 @@ footer {
         margin-top: 10px;
     }
     .galeria {
-        grid-template-columns: repeat(2, 1fr); /* 2 colunas em telas muito pequenas */
-    }
-}
-
-@media (max-width: 400px) {
-    .galeria {
         grid-template-columns: 1fr; /* 1 coluna em telas pequenas */
     }
 }
+
 .banner h2 {
     font-family: 'Limelight', cursive;
     font-size: 48px; /* Você pode ajustar o tamanho da fonte conforme necessário */
